@@ -1,0 +1,584 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerServerName": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2016.1.609.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.1.609.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.1.609.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.1.609.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.609.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.609.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+    ],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5a997e60-038d-49e7-be5e-e054a4b20b90",
+            "Description": "Execute test 'Sitefinity IF...ELSE  Admin Login'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__value": {
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "Sitefinity IF...ELSE  Admin Login",
+                "TestPath": "Quantum Testing\\Q3 Release\\Sitefinity IF...ELSE  Admin Login.tstest",
+                "TestUniqueId": "639f46a7-d763-48d7-8ad5-0429cb7573d9",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Change page templatel5tk2nqe.czb",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "2c652bfe-a7c4-4c3c-bdd0-57cf9ca9646b",
+            "Description": "RadMenuItem('MainMenu'): item 'Pages' action -> 'Navigate' to '~/Sitefinity/Pages'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "Telerik.WebAii.Design.Translators.Html.Menu.MenuItemActionDescriptor",
+              "__value": {
+                "ActionType": 4,
+                "Text": "Pages",
+                "NavigateUrl": "~/Sitefinity/Pages",
+                "CustomPrefix": "RadMenuItem",
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "RadMenuItem": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "RadMenuItem",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Sitefinity/dashboard",
+                          "Query": "",
+                          "BaseUrl": "http://ausdemopc",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Dashboard",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Dashboard"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "b3+D8BBb4UQ/0zp2sAkh8gI4Dbw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "ListItem",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=MainMenu"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=li:1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/div[1]/div[2]/ul[1]/li[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "Telerik.WebAii.Controls.Html.RadMenuItem",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Change page template5tiul323.2ca",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "de1c8434-b7fb-42b5-964d-16d364a94d92",
+            "Description": "RadTreeView('ctl04_frontendPagesListView_ctl00_ctl00_itemsTreeTable_ctl00_ctl00_treeTable'): '\n\t\t\t\t\t<div class=\"sfDragAndDropTreeTableColumn\"></div><div class=\"sfTreeTableColumn sfDateAuthor\"><span>01 Dec, 2011 05:30</span>\n                                   <span class=\"sfLine\">Sitefinity Admin</span></div><div class=\"sfTreeTableColumn sfStatsColumn\"><a class=\"sfVisibilityHidden\" href=\"/Sitefinity/marketing/Analytics#/Content/Top_content/sf:allurls:/products[94208a92-8b1b-409b-ab2e-e34159bfb6e5]\"></a></div><div class=\"sfTreeTableColumn sfMoreActions\"><ul class=\"actionsMenu\" id=\"actions1\"><li><a href=\"\" menu=\"actions\">Actions</a><ul><li><a class=\"sf_binderCommand_delete sfDeleteItm\" href=\"\">Delete</a></li><li><a class=\"sf_binderCommand_publishDraft sfPublishItm\" href=\"\">Publish</a></li><li><a class=\"sf_binderCommand_unpublishPage sfUnpublishItm\" href=\"\">Unpublish</a></li><li><a class=\"sf_binderCommand_duplicate sfDuplicateItm\" href=\"\">Duplicate</a></li><li><a class=\"sf_binderCommand_setAsHomepage sfSetHome\" href=\"\">Set as Homepage</a></li><li><a class=\"sf_binderCommand_shareLink sfShareLinkItm\" href=\"\">Share preview link...</a></li><li><a class=\"sf_binderCommand_unlockPage\" href=\"\">Unlock</a></li><li class=\"sfSeparator\"><strong class=\"sfSepNoTitle\"></strong></li><li><a class=\"sf_binderCommand_createChild sfCreateChild\" href=\"\">Create a child page</a></li><li class=\"sfSeparator\"><strong>Edit...</strong></li><li><a class=\"sf_binderCommand_editPageContent\" href=\"\">Content</a></li><li><a class=\"sf_binderCommand_edit\" href=\"\">Title & Properties</a></li><li><a class=\"sf_binderCommand_permissions\" href=\"\">Permissions</a></li><li><a class=\"sf_binderCommand_historygrid\" href=\"\">Revision History</a></li><li class=\"sfSeparator\"><strong>Change</strong></li><li><a class=\"sf_binderCommand_changeTemplate\" href=\"\">Template</a></li><li><a class=\"sf_binderCommand_changePageOwner\" href=\"\">Owner</a></li><li class=\"sfSeparator\"><strong>Move...</strong></li><li><a class=\"sf_binderCommand_moveUp sfMoveUp\" href=\"\">Up</a></li><li><a class=\"sf_binderCommand_moveDown sfMoveDown\" href=\"\">Down</a></li><li class=\"sfSeparator\"><strong class=\"sfSeparator\"></strong></li><li><a class=\"sf_binderCommand_sf_send_for_translation sfTranslateItm\" href=\"\">Send for translation...</a></li></ul></li></ul></div><div class=\"sfTreeTableColumn sfView\"><a href=\"http://ausdemopc/products\" target=\"_blank\">View</a></div><div class=\"sfTreeTableColumn sfLanguagesCol\"><div class=\"sfTranslationCommands\"><div class=\"sfBasicLangs\"><div title=\"English\" class=\"sfLangen sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">en</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div><div title=\"español\" class=\"sfLanges sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">es</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div></div></div></div><div class=\"sfTreeTableColumn sfPersonalized\"><span style=\"display: none;\">Personalized</span></div><div class=\"sfTreeTableColumn sfFirstTreeTableColumn sfTitleCol\"><a class=\"sf_binderCommand_editPage rtIn sfItemTitle sfgroup\" href=\"\"><strong>Products</strong>  <span class=\"sfStatusLocation\"> <span>Group page</span></span> </a></div>\n\t\t\t\t' action -> 'Expand'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "Telerik.WebAii.Design.Translators.Html.TreeView.RadTreeViewActionDescriptor",
+              "__value": {
+                "ActionType": 0,
+                "Text": "\n\t\t\t\t\t<div class=\"sfDragAndDropTreeTableColumn\"></div><div class=\"sfTreeTableColumn sfDateAuthor\"><span>01 Dec, 2011 05:30</span>\n                                   <span class=\"sfLine\">Sitefinity Admin</span></div><div class=\"sfTreeTableColumn sfStatsColumn\"><a class=\"sfVisibilityHidden\" href=\"/Sitefinity/marketing/Analytics#/Content/Top_content/sf:allurls:/products[94208a92-8b1b-409b-ab2e-e34159bfb6e5]\"></a></div><div class=\"sfTreeTableColumn sfMoreActions\"><ul class=\"actionsMenu\" id=\"actions1\"><li><a href=\"\" menu=\"actions\">Actions</a><ul><li><a class=\"sf_binderCommand_delete sfDeleteItm\" href=\"\">Delete</a></li><li><a class=\"sf_binderCommand_publishDraft sfPublishItm\" href=\"\">Publish</a></li><li><a class=\"sf_binderCommand_unpublishPage sfUnpublishItm\" href=\"\">Unpublish</a></li><li><a class=\"sf_binderCommand_duplicate sfDuplicateItm\" href=\"\">Duplicate</a></li><li><a class=\"sf_binderCommand_setAsHomepage sfSetHome\" href=\"\">Set as Homepage</a></li><li><a class=\"sf_binderCommand_shareLink sfShareLinkItm\" href=\"\">Share preview link...</a></li><li><a class=\"sf_binderCommand_unlockPage\" href=\"\">Unlock</a></li><li class=\"sfSeparator\"><strong class=\"sfSepNoTitle\"></strong></li><li><a class=\"sf_binderCommand_createChild sfCreateChild\" href=\"\">Create a child page</a></li><li class=\"sfSeparator\"><strong>Edit...</strong></li><li><a class=\"sf_binderCommand_editPageContent\" href=\"\">Content</a></li><li><a class=\"sf_binderCommand_edit\" href=\"\">Title & Properties</a></li><li><a class=\"sf_binderCommand_permissions\" href=\"\">Permissions</a></li><li><a class=\"sf_binderCommand_historygrid\" href=\"\">Revision History</a></li><li class=\"sfSeparator\"><strong>Change</strong></li><li><a class=\"sf_binderCommand_changeTemplate\" href=\"\">Template</a></li><li><a class=\"sf_binderCommand_changePageOwner\" href=\"\">Owner</a></li><li class=\"sfSeparator\"><strong>Move...</strong></li><li><a class=\"sf_binderCommand_moveUp sfMoveUp\" href=\"\">Up</a></li><li><a class=\"sf_binderCommand_moveDown sfMoveDown\" href=\"\">Down</a></li><li class=\"sfSeparator\"><strong class=\"sfSeparator\"></strong></li><li><a class=\"sf_binderCommand_sf_send_for_translation sfTranslateItm\" href=\"\">Send for translation...</a></li></ul></li></ul></div><div class=\"sfTreeTableColumn sfView\"><a href=\"http://ausdemopc/products\" target=\"_blank\">View</a></div><div class=\"sfTreeTableColumn sfLanguagesCol\"><div class=\"sfTranslationCommands\"><div class=\"sfBasicLangs\"><div title=\"English\" class=\"sfLangen sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">en</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div><div title=\"español\" class=\"sfLanges sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">es</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div></div></div></div><div class=\"sfTreeTableColumn sfPersonalized\"><span style=\"display: none;\">Personalized</span></div><div class=\"sfTreeTableColumn sfFirstTreeTableColumn sfTitleCol\"><a class=\"sf_binderCommand_editPage rtIn sfItemTitle sfgroup\" href=\"\"><strong>Products</strong>  <span class=\"sfStatusLocation\"> <span>Group page</span></span> </a></div>\n\t\t\t\t",
+                "NavigateUrl": null,
+                "IsDoubleClick": false,
+                "CustomPrefix": "RadTreeView",
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "RadTreeView": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "RadTreeView",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Sitefinity/Pages",
+                          "Query": "",
+                          "BaseUrl": "http://ausdemopc",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Pages",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Pages0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "m1ZkboKhz9WiTrJqxQ/P24TSHeY=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "FrontendPagesListViewItemsTreeTableTreeTableDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=ctl04_frontendPagesListView_ctl00_ctl00_itemsTreeTable_ctl00_ctl00_treeTable"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[4]/div[2]/div[1]/div[1]/div[4]/div[3]/div[3]/div[1]/div[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "Telerik.WebAii.Controls.Html.RadTreeView",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Change page templatepxqdwdw1.rss",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "88bdac5a-5fd9-4693-995f-d93fc0b384b1",
+            "Description": "RadTreeView('ctl04_frontendPagesListView_ctl00_ctl00_itemsTreeTable_ctl00_ctl00_treeTable'): '\n\t\t\t\t\t<div class=\"sfDragAndDropTreeTableColumn\"></div><div class=\"sfTreeTableColumn sfDateAuthor\"><span>01 Dec, 2011 05:36</span>\n                                   <span class=\"sfLine\">Sitefinity Admin</span></div><div class=\"sfTreeTableColumn sfStatsColumn\"><a class=\"sfViewStats\" href=\"/Sitefinity/marketing/Analytics#/Content/Top_content/sf:allurls:/products/tablets[000f0965-1a28-4e18-86f7-e8c3c0951056]\"></a></div><div class=\"sfTreeTableColumn sfMoreActions\"><ul class=\"actionsMenu\" id=\"actions2\"><li><a href=\"\" menu=\"actions\">Actions</a><ul><li><a class=\"sf_binderCommand_delete sfDeleteItm\" href=\"\">Delete</a></li><li><a class=\"sf_binderCommand_publishDraft sfPublishItm\" href=\"\">Publish</a></li><li><a class=\"sf_binderCommand_unpublishPage sfUnpublishItm\" href=\"\">Unpublish</a></li><li><a class=\"sf_binderCommand_duplicate sfDuplicateItm\" href=\"\">Duplicate</a></li><li><a class=\"sf_binderCommand_setAsHomepage sfSetHome\" href=\"\">Set as Homepage</a></li><li><a class=\"sf_binderCommand_shareLink sfShareLinkItm\" href=\"\">Share preview link...</a></li><li><a class=\"sf_binderCommand_unlockPage\" href=\"\">Unlock</a></li><li class=\"sfSeparator\"><strong class=\"sfSepNoTitle\"></strong></li><li><a class=\"sf_binderCommand_createChild sfCreateChild\" href=\"\">Create a child page</a></li><li class=\"sfSeparator\"><strong>Edit...</strong></li><li><a class=\"sf_binderCommand_editPageContent\" href=\"\">Content</a></li><li><a class=\"sf_binderCommand_edit\" href=\"\">Title & Properties</a></li><li><a class=\"sf_binderCommand_permissions\" href=\"\">Permissions</a></li><li><a class=\"sf_binderCommand_historygrid\" href=\"\">Revision History</a></li><li class=\"sfSeparator\"><strong>Change</strong></li><li><a class=\"sf_binderCommand_changeTemplate\" href=\"\">Template</a></li><li><a class=\"sf_binderCommand_changePageOwner\" href=\"\">Owner</a></li><li class=\"sfSeparator\"><strong>Move...</strong></li><li><a class=\"sf_binderCommand_moveUp sfMoveUp\" href=\"\">Up</a></li><li><a class=\"sf_binderCommand_moveDown sfMoveDown\" href=\"\">Down</a></li><li class=\"sfSeparator\"><strong class=\"sfSeparator\"></strong></li><li><a class=\"sf_binderCommand_sf_send_for_translation sfTranslateItm\" href=\"\">Send for translation...</a></li></ul></li></ul></div><div class=\"sfTreeTableColumn sfView\"><a href=\"http://ausdemopc/products/tablets\" target=\"_blank\">View</a></div><div class=\"sfTreeTableColumn sfLanguagesCol\"><div class=\"sfTranslationCommands\"><div class=\"sfBasicLangs\"><div title=\"English\" class=\"sfLangen sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">en</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div><div title=\"español\" class=\"sfLanges sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">es</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div></div></div></div><div class=\"sfTreeTableColumn sfPersonalized\"><span style=\"display: none;\">Personalized</span></div><div class=\"sfTreeTableColumn sfFirstTreeTableColumn sfTitleCol\"><a class=\"sf_binderCommand_editPage rtIn sfItemTitle sfpublished\" href=\"\"><strong>Tablets</strong>  <span class=\"sfStatusLocation\"> <span>Published</span></span> </a></div>\n\t\t\t\t' action -> 'Expand'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "Telerik.WebAii.Design.Translators.Html.TreeView.RadTreeViewActionDescriptor",
+              "__value": {
+                "ActionType": 0,
+                "Text": "\n\t\t\t\t\t<div class=\"sfDragAndDropTreeTableColumn\"></div><div class=\"sfTreeTableColumn sfDateAuthor\"><span>01 Dec, 2011 05:36</span>\n                                   <span class=\"sfLine\">Sitefinity Admin</span></div><div class=\"sfTreeTableColumn sfStatsColumn\"><a class=\"sfViewStats\" href=\"/Sitefinity/marketing/Analytics#/Content/Top_content/sf:allurls:/products/tablets[000f0965-1a28-4e18-86f7-e8c3c0951056]\"></a></div><div class=\"sfTreeTableColumn sfMoreActions\"><ul class=\"actionsMenu\" id=\"actions2\"><li><a href=\"\" menu=\"actions\">Actions</a><ul><li><a class=\"sf_binderCommand_delete sfDeleteItm\" href=\"\">Delete</a></li><li><a class=\"sf_binderCommand_publishDraft sfPublishItm\" href=\"\">Publish</a></li><li><a class=\"sf_binderCommand_unpublishPage sfUnpublishItm\" href=\"\">Unpublish</a></li><li><a class=\"sf_binderCommand_duplicate sfDuplicateItm\" href=\"\">Duplicate</a></li><li><a class=\"sf_binderCommand_setAsHomepage sfSetHome\" href=\"\">Set as Homepage</a></li><li><a class=\"sf_binderCommand_shareLink sfShareLinkItm\" href=\"\">Share preview link...</a></li><li><a class=\"sf_binderCommand_unlockPage\" href=\"\">Unlock</a></li><li class=\"sfSeparator\"><strong class=\"sfSepNoTitle\"></strong></li><li><a class=\"sf_binderCommand_createChild sfCreateChild\" href=\"\">Create a child page</a></li><li class=\"sfSeparator\"><strong>Edit...</strong></li><li><a class=\"sf_binderCommand_editPageContent\" href=\"\">Content</a></li><li><a class=\"sf_binderCommand_edit\" href=\"\">Title & Properties</a></li><li><a class=\"sf_binderCommand_permissions\" href=\"\">Permissions</a></li><li><a class=\"sf_binderCommand_historygrid\" href=\"\">Revision History</a></li><li class=\"sfSeparator\"><strong>Change</strong></li><li><a class=\"sf_binderCommand_changeTemplate\" href=\"\">Template</a></li><li><a class=\"sf_binderCommand_changePageOwner\" href=\"\">Owner</a></li><li class=\"sfSeparator\"><strong>Move...</strong></li><li><a class=\"sf_binderCommand_moveUp sfMoveUp\" href=\"\">Up</a></li><li><a class=\"sf_binderCommand_moveDown sfMoveDown\" href=\"\">Down</a></li><li class=\"sfSeparator\"><strong class=\"sfSeparator\"></strong></li><li><a class=\"sf_binderCommand_sf_send_for_translation sfTranslateItm\" href=\"\">Send for translation...</a></li></ul></li></ul></div><div class=\"sfTreeTableColumn sfView\"><a href=\"http://ausdemopc/products/tablets\" target=\"_blank\">View</a></div><div class=\"sfTreeTableColumn sfLanguagesCol\"><div class=\"sfTranslationCommands\"><div class=\"sfBasicLangs\"><div title=\"English\" class=\"sfLangen sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">en</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div><div title=\"español\" class=\"sfLanges sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">es</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div></div></div></div><div class=\"sfTreeTableColumn sfPersonalized\"><span style=\"display: none;\">Personalized</span></div><div class=\"sfTreeTableColumn sfFirstTreeTableColumn sfTitleCol\"><a class=\"sf_binderCommand_editPage rtIn sfItemTitle sfpublished\" href=\"\"><strong>Tablets</strong>  <span class=\"sfStatusLocation\"> <span>Published</span></span> </a></div>\n\t\t\t\t",
+                "NavigateUrl": null,
+                "IsDoubleClick": false,
+                "CustomPrefix": "RadTreeView",
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "RadTreeView": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "RadTreeView",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Sitefinity/Pages",
+                          "Query": "",
+                          "BaseUrl": "http://ausdemopc",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Pages",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Pages0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "m1ZkboKhz9WiTrJqxQ/P24TSHeY=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "FrontendPagesListViewItemsTreeTableTreeTableDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=ctl04_frontendPagesListView_ctl00_ctl00_itemsTreeTable_ctl00_ctl00_treeTable"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[4]/div[2]/div[1]/div[1]/div[4]/div[3]/div[3]/div[1]/div[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "Telerik.WebAii.Controls.Html.RadTreeView",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Change page templateapuznv5t.cgi",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c94ae3ab-893c-4a6d-86eb-fc4e99701007",
+            "Description": "RadTreeView('ctl04_frontendPagesListView_ctl00_ctl00_itemsTreeTable_ctl00_ctl00_treeTable'): '\n\t\t\t\t\t<div class=\"sfDragAndDropTreeTableColumn\"></div><div class=\"sfTreeTableColumn sfDateAuthor\"><span>01 Dec, 2011 05:36</span>\n                                   <span class=\"sfLine\">Sitefinity Admin</span></div><div class=\"sfTreeTableColumn sfStatsColumn\"><a class=\"sfViewStats\" href=\"/Sitefinity/marketing/Analytics#/Content/Top_content/sf:allurls:/products/tablets/axion-android-tablet[e2eebb30-be7e-4e23-97b6-a83511008da4]\"></a></div><div class=\"sfTreeTableColumn sfMoreActions\"><ul class=\"actionsMenu\" id=\"actions0\"><li><a href=\"\" menu=\"actions\">Actions</a><ul><li><a class=\"sf_binderCommand_delete sfDeleteItm\" href=\"\">Delete</a></li><li><a class=\"sf_binderCommand_publishDraft sfPublishItm\" href=\"\">Publish</a></li><li><a class=\"sf_binderCommand_unpublishPage sfUnpublishItm\" href=\"\">Unpublish</a></li><li><a class=\"sf_binderCommand_duplicate sfDuplicateItm\" href=\"\">Duplicate</a></li><li><a class=\"sf_binderCommand_setAsHomepage sfSetHome\" href=\"\">Set as Homepage</a></li><li><a class=\"sf_binderCommand_shareLink sfShareLinkItm\" href=\"\">Share preview link...</a></li><li><a class=\"sf_binderCommand_unlockPage\" href=\"\">Unlock</a></li><li class=\"sfSeparator\"><strong class=\"sfSepNoTitle\"></strong></li><li><a class=\"sf_binderCommand_createChild sfCreateChild\" href=\"\">Create a child page</a></li><li class=\"sfSeparator\"><strong>Edit...</strong></li><li><a class=\"sf_binderCommand_editPageContent\" href=\"\">Content</a></li><li><a class=\"sf_binderCommand_edit\" href=\"\">Title & Properties</a></li><li><a class=\"sf_binderCommand_permissions\" href=\"\">Permissions</a></li><li><a class=\"sf_binderCommand_historygrid\" href=\"\">Revision History</a></li><li class=\"sfSeparator\"><strong>Change</strong></li><li><a class=\"sf_binderCommand_changeTemplate\" href=\"\">Template</a></li><li><a class=\"sf_binderCommand_changePageOwner\" href=\"\">Owner</a></li><li class=\"sfSeparator\"><strong>Move...</strong></li><li><a class=\"sf_binderCommand_moveUp sfMoveUp\" href=\"\">Up</a></li><li><a class=\"sf_binderCommand_moveDown sfMoveDown\" href=\"\">Down</a></li><li class=\"sfSeparator\"><strong class=\"sfSeparator\"></strong></li><li><a class=\"sf_binderCommand_sf_send_for_translation sfTranslateItm\" href=\"\">Send for translation...</a></li></ul></li></ul></div><div class=\"sfTreeTableColumn sfView\"><a href=\"http://ausdemopc/products/tablets/axion-android-tablet\" target=\"_blank\">View</a></div><div class=\"sfTreeTableColumn sfLanguagesCol\"><div class=\"sfTranslationCommands\"><div class=\"sfBasicLangs\"><div title=\"English\" class=\"sfLangen sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">en</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div><div title=\"español\" class=\"sfLanges sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">es</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div></div></div></div><div class=\"sfTreeTableColumn sfPersonalized\"><span style=\"display: none;\">Personalized</span></div><div class=\"sfTreeTableColumn sfFirstTreeTableColumn sfTitleCol\"><a class=\"sf_binderCommand_editPage rtIn sfItemTitle sfpublished\" href=\"\"><strong>Axion Android Tablet</strong>  <span class=\"sfStatusLocation\"> <span>Published</span></span> </a></div>\n\t\t\t\t' action -> 'Expand'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "Telerik.WebAii.Design.Translators.Html.TreeView.RadTreeViewActionDescriptor",
+              "__value": {
+                "ActionType": 0,
+                "Text": "\n\t\t\t\t\t<div class=\"sfDragAndDropTreeTableColumn\"></div><div class=\"sfTreeTableColumn sfDateAuthor\"><span>01 Dec, 2011 05:36</span>\n                                   <span class=\"sfLine\">Sitefinity Admin</span></div><div class=\"sfTreeTableColumn sfStatsColumn\"><a class=\"sfViewStats\" href=\"/Sitefinity/marketing/Analytics#/Content/Top_content/sf:allurls:/products/tablets/axion-android-tablet[e2eebb30-be7e-4e23-97b6-a83511008da4]\"></a></div><div class=\"sfTreeTableColumn sfMoreActions\"><ul class=\"actionsMenu\" id=\"actions0\"><li><a href=\"\" menu=\"actions\">Actions</a><ul><li><a class=\"sf_binderCommand_delete sfDeleteItm\" href=\"\">Delete</a></li><li><a class=\"sf_binderCommand_publishDraft sfPublishItm\" href=\"\">Publish</a></li><li><a class=\"sf_binderCommand_unpublishPage sfUnpublishItm\" href=\"\">Unpublish</a></li><li><a class=\"sf_binderCommand_duplicate sfDuplicateItm\" href=\"\">Duplicate</a></li><li><a class=\"sf_binderCommand_setAsHomepage sfSetHome\" href=\"\">Set as Homepage</a></li><li><a class=\"sf_binderCommand_shareLink sfShareLinkItm\" href=\"\">Share preview link...</a></li><li><a class=\"sf_binderCommand_unlockPage\" href=\"\">Unlock</a></li><li class=\"sfSeparator\"><strong class=\"sfSepNoTitle\"></strong></li><li><a class=\"sf_binderCommand_createChild sfCreateChild\" href=\"\">Create a child page</a></li><li class=\"sfSeparator\"><strong>Edit...</strong></li><li><a class=\"sf_binderCommand_editPageContent\" href=\"\">Content</a></li><li><a class=\"sf_binderCommand_edit\" href=\"\">Title & Properties</a></li><li><a class=\"sf_binderCommand_permissions\" href=\"\">Permissions</a></li><li><a class=\"sf_binderCommand_historygrid\" href=\"\">Revision History</a></li><li class=\"sfSeparator\"><strong>Change</strong></li><li><a class=\"sf_binderCommand_changeTemplate\" href=\"\">Template</a></li><li><a class=\"sf_binderCommand_changePageOwner\" href=\"\">Owner</a></li><li class=\"sfSeparator\"><strong>Move...</strong></li><li><a class=\"sf_binderCommand_moveUp sfMoveUp\" href=\"\">Up</a></li><li><a class=\"sf_binderCommand_moveDown sfMoveDown\" href=\"\">Down</a></li><li class=\"sfSeparator\"><strong class=\"sfSeparator\"></strong></li><li><a class=\"sf_binderCommand_sf_send_for_translation sfTranslateItm\" href=\"\">Send for translation...</a></li></ul></li></ul></div><div class=\"sfTreeTableColumn sfView\"><a href=\"http://ausdemopc/products/tablets/axion-android-tablet\" target=\"_blank\">View</a></div><div class=\"sfTreeTableColumn sfLanguagesCol\"><div class=\"sfTranslationCommands\"><div class=\"sfBasicLangs\"><div title=\"English\" class=\"sfLangen sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">en</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div><div title=\"español\" class=\"sfLanges sfNotTranslated sfLangWrp \">\n    <span class=\"sfCulture\">es</span>\n    <a class=\"sfLangAdd\" href=\"\">Add</a>\n    <a class=\"sfLangEdit sfDisplayNone\" href=\"\">Edit</a>\n</div></div></div></div><div class=\"sfTreeTableColumn sfPersonalized\"><span style=\"display: none;\">Personalized</span></div><div class=\"sfTreeTableColumn sfFirstTreeTableColumn sfTitleCol\"><a class=\"sf_binderCommand_editPage rtIn sfItemTitle sfpublished\" href=\"\"><strong>Axion Android Tablet</strong>  <span class=\"sfStatusLocation\"> <span>Published</span></span> </a></div>\n\t\t\t\t",
+                "NavigateUrl": null,
+                "IsDoubleClick": false,
+                "CustomPrefix": "RadTreeView",
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "RadTreeView": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "RadTreeView",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Sitefinity/Pages",
+                          "Query": "",
+                          "BaseUrl": "http://ausdemopc",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Pages",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Pages0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "m1ZkboKhz9WiTrJqxQ/P24TSHeY=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "FrontendPagesListViewItemsTreeTableTreeTableDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=ctl04_frontendPagesListView_ctl00_ctl00_itemsTreeTable_ctl00_ctl00_treeTable"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[4]/div[2]/div[1]/div[1]/div[4]/div[3]/div[3]/div[1]/div[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "Telerik.WebAii.Controls.Html.RadTreeView",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Change page templatecvpopuqy.0dg",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "TFS Project.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "Test-Studio-Sample-UI-Automation-Project\\Quantum Testing\\Q3 Release\\Change page template.resx",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "Change page template",
+    "Owner": "",
+    "Path": "Test-Studio-Sample-UI-Automation-Project\\Quantum Testing\\Q3 Release\\Change page template.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "7d6b78b2-ced8-4615-99a2-f2fbac4420d1",
+    "Id": "7d6b78b2-ced8-4615-99a2-f2fbac4420d1",
+    "ProjectId": "46f03153-babe-4e54-9a63-4fa6118e7170",
+    "Version": 200
+  }
+}
